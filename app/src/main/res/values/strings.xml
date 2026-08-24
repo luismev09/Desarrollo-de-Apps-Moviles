@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpendLog</string>
+
+    <!-- navegacion inferior -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_historial">Historial</string>
+    <string name="nav_config">Config.</string>
+
+    <!-- categorias semilla -->
+    <string name="categoria_transporte">Transporte</string>
+    <string name="categoria_insumos">Insumos</string>
+    <string name="categoria_arriendo">Arriendo</string>
+    <string name="categoria_servicios">Servicios</string>
+    <string name="categoria_otros">Otros</string>
+
+    <!-- dashboard -->
+    <string name="subtitulo_dashboard">%1$s · Total del mes</string>
+    <string name="etiqueta_presupuesto">Presupuesto</string>
+    <string name="etiqueta_disponible">Disponible</string>
+    <string name="gastos_por_categoria">Gastos por categoría</string>
+    <string name="titulo_grafico">Comparativo del mes</string>
+    <string name="grafico_sin_datos">Aún no hay gastos para graficar</string>
+    <string name="descripcion_icono_categoria">Icono de la categoría</string>
+    <string name="sin_gastos">Todavía no has registrado gastos este mes</string>
+    <string name="alerta_limite_cerca">%1$s se está acercando a su límite este mes</string>
+    <string name="alerta_limite_superado">%1$s superó el límite este mes</string>
+    <string name="descripcion_agregar_gasto">Agregar gasto</string>
+
+    <!-- registro -->
+    <string name="volver_nuevo_gasto">← Nuevo gasto</string>
+    <string name="titulo_registrar_gasto">Registrar gasto</string>
+    <string name="titulo_editar_gasto">Editar gasto</string>
+    <string name="volver_editar_gasto">← Volver al historial</string>
+    <string name="boton_guardar_cambios">Guardar cambios</string>
+    <string name="gasto_actualizado">Gasto actualizado</string>
+    <string name="error_gasto_no_encontrado">Ese gasto ya no existe</string>
+    <string name="etiqueta_monto">Monto</string>
+    <string name="hint_monto">0</string>
+    <string name="etiqueta_categoria">Categoría</string>
+    <string name="etiqueta_descripcion">Descripción</string>
+    <string name="hint_descripcion">Ej: Gasolina, insumos, arriendo</string>
+    <string name="etiqueta_fecha">Fecha</string>
+    <string name="etiqueta_ubicacion">Ubicación (opcional)</string>
+    <string name="boton_adjuntar_ubicacion">Adjuntar</string>
+    <string name="ubicacion_sin_adjuntar">Sin ubicación adjunta</string>
+    <string name="ubicacion_buscando">Buscando ubicación…</string>
+    <string name="ubicacion_adjunta">Lat %1$s · Lon %2$s</string>
+    <string name="ubicacion_sin_permiso">Sin permiso: se guarda sin ubicación</string>
+    <string name="ubicacion_no_disponible">Sin ubicación reciente: se guarda sin ella</string>
+    <string name="ubicacion_conservada">No se pudo actualizar: se conserva la anterior</string>
+    <string name="boton_guardar_gasto">Guardar gasto</string>
+    <string name="nota_guardado_local">Guardado localmente, sin conexión requerida</string>
+    <string name="error_monto_vacio">Ingresa un monto</string>
+    <string name="error_monto_cero">El monto debe ser mayor a cero</string>
+    <string name="gasto_guardado">Gasto guardado</string>
+    <string name="error_al_guardar">No se pudo guardar el gasto</string>
+
+    <!-- historial -->
+    <string name="titulo_historial">Historial</string>
+    <string name="subtitulo_historial">%1$s · %2$s</string>
+    <string name="periodo_titulo">Ver período</string>
+    <string name="periodo_elegir_mes">Elegir mes y año</string>
+    <string name="periodo_elegir_rango">Elegir rango de fechas</string>
+    <string name="periodo_rango">%1$s a %2$s</string>
+    <string name="periodo_elige_mes">Elige un día del mes que quieres ver</string>
+    <string name="periodo_elige_desde">1 de 2: elige la fecha inicial</string>
+    <string name="periodo_elige_hasta">2 de 2: elige la fecha final</string>
+    <string name="chip_todos">Todos</string>
+    <string name="flecha_izquierda">‹</string>
+    <string name="descripcion_mes_anterior">Mes anterior</string>
+    <string name="descripcion_mes_siguiente">Mes siguiente</string>
+    <!-- neutral a proposito: el pie tambien se ve navegando a meses anteriores
+         y con un chip de categoria activo, donde "este mes" seria falso -->
+    <string name="total_este_mes">Total mostrado</string>
+    <string name="boton_exportar">Exportar por SMS / Email</string>
+    <string name="asunto_resumen">Resumen de gastos SpendLog</string>
+    <string name="titulo_selector_compartir">Compartir resumen</string>
+    <string name="sin_gastos_historial">No hay gastos para mostrar</string>
+    <string name="titulo_borrar_gasto">Borrar gasto</string>
+    <string name="mensaje_borrar_gasto">¿Seguro que quieres borrar este gasto?</string>
+    <string name="boton_borrar">Borrar</string>
+    <string name="boton_cancelar">Cancelar</string>
+    <string name="gasto_borrado">Gasto borrado</string>
+    <string name="sin_gastos_para_exportar">No hay gastos para exportar</string>
+    <string name="monto_negativo">-%1$s</string>
+    <string name="descripcion_gasto_con_ubicacion">Gasto con ubicación</string>
+    <string name="descripcion_borrar_gasto">Borrar gasto</string>
+    <string name="detalle_gasto">%1$s · %2$s</string>
+    <string name="linea_resumen">%1$s · %2$s · %3$s</string>
+    <string name="resumen_filtrado">Solo la categoría %1$s</string>
+    <string name="resumen_total">TOTAL: %1$s</string>
+
+    <plurals name="cantidad_registros">
+        <item quantity="one">%d registro</item>
+        <item quantity="other">%d registros</item>
+    </plurals>
+
+    <!-- configuracion -->
+    <string name="titulo_configuracion">Configuración</string>
+    <string name="subtitulo_configuracion">Categorías y límites</string>
+    <string name="categorias_activas">Categorías activas</string>
+    <string name="pista_tocar_categoria">Toca una categoría para cambiar su límite</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="alertas_de_limite">Alertas de límite</string>
+    <string name="notificar_al_superar" formatted="false">Notificar al superar el 80%</string>
+    <string name="limite_con_monto">Límite: %1$s/mes</string>
+    <string name="sin_limite">Sin límite</string>
+    <string name="flecha_derecha">›</string>
+    <string name="boton_agregar_categoria">+ Agregar nueva categoría</string>
+    <string name="hint_limite_mensual">Límite mensual</string>
+    <string name="boton_guardar">Guardar</string>
+    <string name="limite_actualizado">Límite actualizado</string>
+    <string name="titulo_nueva_categoria">Nueva categoría</string>
+    <string name="hint_nombre_categoria">Nombre de la categoría</string>
+    <string name="error_nombre_vacio">Ingresa un nombre</string>
+    <string name="categoria_creada">Categoría creada</string>
+
+</resources>

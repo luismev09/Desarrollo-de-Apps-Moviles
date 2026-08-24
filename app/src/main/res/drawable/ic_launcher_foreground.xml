@@ -1,0 +1,16 @@
+<!-- tres barras ascendentes: el gasto que se mide, dibujadas dentro de la zona segura del icono adaptativo -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,62h12v20h-12z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,48h12v34h-12z" />
+    <path
+        android:fillColor="#E8F5EE"
+        android:pathData="M64,34h12v48h-12z" />
+</vector>

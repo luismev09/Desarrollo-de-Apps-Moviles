@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- el borde izquierdo se logra con dos capas: la amarilla asoma 4dp por la izquierda -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/alerta_amarillo" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+    <item android:left="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/alerta_fondo" />
+            <corners
+                android:bottomRightRadius="12dp"
+                android:topRightRadius="12dp" />
+        </shape>
+    </item>
+</layer-list>

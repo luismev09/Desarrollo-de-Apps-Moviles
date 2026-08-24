@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Unico permiso de la aplicacion. Se pide el aproximado y no el fino
+         porque para saber en que zona se hizo un gasto no hace falta mas
+         precision, y adjuntar la ubicacion es opcional: si el usuario lo
+         niega, el gasto se guarda igual sin coordenadas. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- required="false" para que la aplicacion siga instalandose en
+         dispositivos sin hardware de ubicacion -->
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SpendLog">
+
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RegistroActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".HistorialActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ConfiguracionActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

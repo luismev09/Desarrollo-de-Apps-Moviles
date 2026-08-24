@@ -1,0 +1,16 @@
+*.iml
+.gradle/
+local.properties
+.idea/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+.DS_Store
+
+# entregables generados, no forman parte del codigo fuente
+SpendLog.apk
+*.zip
+
+# carpetas ocultas de configuracion que crean los editores
+/.*/

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SpendLog" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/verde_principal</item>
+        <item name="colorPrimaryDark">@color/verde_oscuro</item>
+        <item name="colorSecondary">@color/verde_principal</item>
+        <item name="colorAccent">@color/verde_principal</item>
+        <item name="android:statusBarColor">@color/verde_oscuro</item>
+        <item name="android:windowBackground">@color/fondo_gris</item>
+    </style>
+
+</resources>

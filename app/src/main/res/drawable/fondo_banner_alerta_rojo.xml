@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- gemelo de fondo_banner_alerta para el estado de limite superado:
+     el borde izquierdo se logra con dos capas, la roja asoma 4dp por la izquierda -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/texto_rojo" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+    <item android:left="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/alerta_fondo_rojo" />
+            <corners
+                android:bottomRightRadius="12dp"
+                android:topRightRadius="12dp" />
+        </shape>
+    </item>
+</layer-list>
